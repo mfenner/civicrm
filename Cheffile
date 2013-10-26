@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook "apt", "2.3.0"
+cookbook "build-essential", "1.4.2"
+cookbook "git", "2.7.0"
+
+cookbook "mysql", "3.0.2"
+cookbook "php", "1.2.6"
+cookbook "apache2", "1.8.4"
+cookbook "wordpress", "1.2.0"
+
+cookbook "civicrm", :git => "https://github.com/mfenner/civicrm-cookbook.git"

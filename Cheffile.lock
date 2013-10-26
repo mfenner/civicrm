@@ -1,0 +1,60 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.8.4)
+    apt (2.3.0)
+    build-essential (1.4.2)
+    chef_handler (1.1.4)
+    dmg (2.0.4)
+    git (2.7.0)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 1.0.0)
+      windows (>= 0.0.0)
+      yum (>= 0.0.0)
+    mysql (3.0.2)
+      build-essential (> 1.1.0)
+      openssl (>= 0.0.0)
+    openssl (1.1.0)
+    php (1.2.6)
+      build-essential (>= 0.0.0)
+      mysql (>= 0.0.0)
+      xml (>= 0.0.0)
+    runit (1.3.0)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    windows (1.11.0)
+      chef_handler (>= 0.0.0)
+    wordpress (1.2.0)
+      apache2 (>= 0.99.4)
+      build-essential (>= 0.0.0)
+      mysql (>= 1.0.5)
+      openssl (>= 0.0.0)
+      php (>= 0.0.0)
+    xml (1.2.0)
+      build-essential (>= 0.0.0)
+    yum (2.3.4)
+
+GIT
+  remote: https://github.com/mfenner/civicrm-cookbook.git
+  ref: master
+  sha: 3bdc4d81c01ae4a6e7abf3dcec55bffb037dc1ba
+  specs:
+    civicrm (1.0.0)
+      apache2 (>= 0.0.0)
+      build-essential (>= 0.0.0)
+      git (>= 0.0.0)
+      mysql (>= 0.0.0)
+      php (>= 0.0.0)
+      wordpress (>= 0.0.0)
+
+DEPENDENCIES
+  apache2 (= 1.8.4)
+  apt (= 2.3.0)
+  build-essential (= 1.4.2)
+  civicrm (>= 0)
+  git (= 2.7.0)
+  mysql (= 3.0.2)
+  php (= 1.2.6)
+  wordpress (= 1.2.0)
+
