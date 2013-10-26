@@ -1,3 +1,6 @@
 [submodule "cookbooks/civicrm"]
 	path = cookbooks/civicrm
 	url = https://github.com/mfenner/civicrm-cookbook.git
+[submodule "wordpress-cas-client"]
+	path = wordpress-cas-client
+	url = git@github.com:mfenner/wordpress-cas-client.git
