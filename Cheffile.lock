@@ -38,7 +38,7 @@ SITE
 GIT
   remote: https://github.com/mfenner/civicrm-cookbook.git
   ref: master
-  sha: 3670d86a3a6230966a471343c0a833a70990b2f0
+  sha: 3181969c1210972edf71f77b105e0b097e824491
   specs:
     civicrm (1.0.1)
       apache2 (>= 0.0.0)
