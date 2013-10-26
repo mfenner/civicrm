@@ -1,0 +1,3 @@
+[submodule "cookbooks/civicrm"]
+	path = cookbooks/civicrm
+	url = https://github.com/mfenner/civicrm-cookbook.git
